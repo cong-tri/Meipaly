@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--link font icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!--link slick-->
+    <link rel="stylesheet" href="./slick-1.8.1/slick-1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="./slick-1.8.1/slick-1.8.1/slick/slick-theme.css"
+    />
+    <style>
+      .container {
+        width: 90%;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      .title {
+        text-align: center;
+      }
+      .service {
+        padding: 100px 0;
+        background: yellow;
+      }
+      .container-item {
+        height: 400px;
+        padding: 0 10px;
+      }
+      .service-item {
+        background: #fff;
+        color: #888888;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .service-item::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 5px;
+        background: red;
+        top: -100%;
+        right: 0;
+        transition: 0.3s;
+      }
+      .slick-dots li button:before {
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: "•";
+        text-align: center;
+        opacity: 1;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .service-item:hover::before {
+        top: 0;
+      }
+      .slick-dots li.slick-active button:before {
+        opacity: 0.75;
+        color: red;
+      }
+      .slick-dots li button::before {
+        color: #888888;
+      }
+      .slick-dots li button::before{
+        font-size: 25px;
+      }
+      .slick-dots{
+        bottom: -50px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section class="container service">
+      <div class="service-content">
+        <div class="title">
+          <p>SERVICES WE ARE OFFERING</p>
+          <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
+          <p>
+            We are committed to providing our customers with exceptional service
+            while offering<br />our employees the best training.
+          </p>
+        </div>
+      </div>
+      <div class="service-list">
+        <div class="container-item">
+          <div class="service-item">
+            <i class="fas fa-warehouse fa-3x"></i>
+            <p>Website <br />developer</p>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="service-item">
+            <i class="fas fa-warehouse fa-3x"></i>
+            <p>Website <br />developer</p>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="service-item">
+            <i class="fas fa-warehouse fa-3x"></i>
+            <p>Website <br />developer</p>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="service-item">
+            <i class="fas fa-warehouse fa-3x"></i>
+            <p>Website <br />developer</p>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="service-item">
+            <i class="fas fa-warehouse fa-3x"></i>
+            <p>Website <br />developer</p>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="service-item">
+            <i class="fas fa-warehouse fa-3x"></i>
+            <p>Website <br />developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.js"
+      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".service-list").slick({
+          // setting- name: setting - value
+          infinite: true,
+          slidesToShow: 5,
+          slidesToScorll: 1,
+          dots: true /*hiện dấu chấm di chuyển*/,
+          arrows: false,
+        });
+      });
+    </script>
+  </body>
+</html>
