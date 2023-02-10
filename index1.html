@@ -25,13 +25,20 @@
     />
     <!-- SLICK -->
     <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+      crossorigin="anonymous"
+    />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/index1.css" />
   </head>
   <body>
     <header>
-      <div class="header__content">
-        <a href="" class="header__logo">
+      <div class="container header-container">
+        <a href="index1.html" class="header-logo">
           <i class="fab fa-atlassian"></i>
           <span>meipaly</span>
         </a>
@@ -47,18 +54,18 @@
         </nav>
       </div>
     </header>
-    <section class="carousel">
-      <div class="carousel__content">
+    <section class="banner">
+      <div class="container banner-container">
         <p>WELCOME TO MEIPALY AGENCY</p>
         <h1>SMART WEB<br />DESIGN AGENCY</h1>
         <button>READ MORE</button>
-        <div class="carousel__scroll">
+        <div class="banner-scroll">
           <i class="fa fa-chevron-down"></i>
         </div>
       </div>
     </section>
     <section class="service">
-      <div class="service__content">
+      <div class="container service-container">
         <div class="title">
           <p>SERVICES WE ARE OFFERING</p>
           <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
@@ -69,37 +76,28 @@
             our employees the best training.
           </p>
         </div>
-
-        <div class="service__slider">
-          <div class="slick-content">
+        <div class="service-slider">
+          <div class="slick">
             <div class="item">
               <i class="fa fa-dice-d6"></i>
               <p>APP MOBILE<br />DEVELOPMENT</p>
             </div>
-
             <div class="item">
               <i class="fab fa-autoprefixer"></i>
-              <p>
-                DIGITAL<br />
-                MARKETING
-              </p>
+              <p>DIGITAL<br />MARKETING</p>
             </div>
-
             <div class="item">
               <i class="fab fa-500px"></i>
-              <p>SEO &amp; CONTENT <br />WRITING</p>
+              <p>SEO CONTENT <br />WRITING</p>
             </div>
-
             <div class="item">
               <i class="fa fa-blog"></i>
               <p>WEBSITE<br />DEVELOPMENT</p>
             </div>
-
             <div class="item">
               <i class="fab fa-battle-net"></i>
-              <p>SEO &amp; CONTENT <br />WRITING</p>
+              <p>SEO CONTENT <br />WRITING</p>
             </div>
-
             <div class="item">
               <i class="fa fa-memory"></i>
               <p>APP MOBILE<br />DEVELOPMENT</p>
@@ -109,7 +107,7 @@
       </div>
     </section>
     <section class="blog">
-      <div class="title title--black">
+      <div class="title title-black">
         <p>OUR NEWS & ARTICLES</p>
         <h2>LATEST BLOG POSTS</h2>
         <p>
@@ -119,12 +117,11 @@
           employees the best training.
         </p>
       </div>
-
-      <div class="blog__content">
-        <div class="blog__item blog__metro1">
+      <div class="blog-container">
+        <div class="blog-item blog-item1">
           <img src="./image-video/grid-metro-1.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-1.jpg"
                 data-fancybox="gallery"
@@ -133,16 +130,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-2.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-2.jpg"
                 data-fancybox="gallery"
@@ -151,16 +148,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-3.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-3.jpg"
                 data-fancybox="gallery"
@@ -169,16 +166,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-4.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-4.jpg"
                 data-fancybox="gallery"
@@ -187,16 +184,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-5.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-5.jpg"
                 data-fancybox="gallery"
@@ -205,16 +202,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-6.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-6.jpg"
                 data-fancybox="gallery"
@@ -223,16 +220,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-7.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-7.jpg"
                 data-fancybox="gallery"
@@ -241,16 +238,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-8.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-8.jpg"
                 data-fancybox="gallery"
@@ -259,16 +256,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item">
+        <div class="blog-item">
           <img src="./image-video/grid-metro-9.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-9.jpg"
                 data-fancybox="gallery"
@@ -277,16 +274,16 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
           </div>
         </div>
-        <div class="blog__item blog__metro10">
+        <div class="blog-item blog-item10">
           <img src="./image-video/grid-metro-10.jpg" alt="metro" />
-          <div class="blog__overlay">
-            <div class="blog__icons">
+          <div class="overlay-search">
+            <div class="blog-icons">
               <a
                 href="./image-video/grid-metro-10.jpg"
                 data-fancybox="gallery"
@@ -295,7 +292,7 @@
                 <i class="fa fa-search-plus"></i>
               </a>
             </div>
-            <div class="blog__text">
+            <div class="overlay-text">
               <p>LOGO</p>
               <h3>FLIPPIN BIRD</h3>
             </div>
@@ -304,20 +301,20 @@
       </div>
     </section>
     <section class="number">
-      <div class="number__content">
-        <div class="number__item">
+      <div class="container number-container">
+        <div class="number-item">
           <p class="counter">8,705</p>
           <p>PROJECTS COMPLETED</p>
         </div>
-        <div class="number__item">
+        <div class="number-item">
           <p class="counter">480</p>
           <p>ACTIVE CLIENTS</p>
         </div>
-        <div class="number__item">
+        <div class="number-item">
           <p class="counter">625</p>
           <p>CUPS OF COFFEE</p>
         </div>
-        <div class="number__item">
+        <div class="number-item">
           <p class="counter">9,774</p>
           <p>HAPPY CLIENTS</p>
         </div>
@@ -334,15 +331,17 @@
           employees the best training.
         </p>
       </div>
-      <div class="experience__content">
-        <video controls poster="./image-video/home_slider.jpg">
-          <source src="./image-video/video.mp4" type="video/mp4" />
-          Your browser doesn't support HTML5 video tag.
-        </video>
+      <div class="experience-container">
+        <video
+          controls
+          poster="./image-video/home_slider.jpg"
+          src="./image-video/video.mp4"
+          type="video/mp4"
+        ></video>
       </div>
     </section>
     <section class="contact">
-      <div class="title title--black">
+      <div class="title title-black">
         <h2>CONTACT</h2>
         <p>
           Thank you for your interest in our website & our services. If you have
@@ -350,8 +349,8 @@
           questions, please write us a message now!
         </p>
       </div>
-      <div class="contact__content">
-        <div class="contact__map">
+      <div class="container contact-container">
+        <div class="contact-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.980968126514!2d106.6686637!3d10.7733302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb490b64157cb9dc1!2sCybersoft!5e0!3m2!1sen!2s!4v1618408657872!5m2!1sen!2s"
             width="600"
@@ -361,24 +360,34 @@
             loading="lazy"
           ></iframe>
         </div>
-        <div class="contact__form">
-          <form action="">
-            <input type="text" placeholder="Username" />
-            <input type="email" placeholder="Email Address" />
+        <div class="contact-form">
+          <form action="" onsubmit="checkForm()">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Username"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
             <textarea
               placeholder="Ask a Question..."
-              name=""
-              id=""
+              name="feedback"
+              id="feedback"
               cols="30"
               rows="10"
             ></textarea>
-            <button class="btnMei">SUBMIT</button>
+            <button type="submit" class="btn">SUBMIT</button>
           </form>
         </div>
       </div>
     </section>
     <footer>
-      <div class="footer__content">
+      <div class="footer-container">
         <p>© 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.</p>
         <div>
           <a href="#">
@@ -399,7 +408,7 @@
     <a href="#" class="backToTop cd-top text-replace js-cd-top">
       <i class="fa fa-angle-up"></i>
     </a>
-    <!-- Thư viện hỗ trợ Jquery giúp chạy các hiệu ứng của thư viện animation -->
+    <!-- Jquery -->
     <script
       src="https://code.jquery.com/jquery-3.6.3.js"
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
@@ -420,7 +429,7 @@
     ></script>
     <script src="./js/jquery.waypoint.js"></script>
     <script src="./counting/counting/jquery.countup.js"></script>
-    <script src="./js/util.js"></script>
+    <script src="./js/ulti.js"></script>
     <script src="./js/backToTop.js"></script>
     <script src="./js/main.js"></script>
   </body>
