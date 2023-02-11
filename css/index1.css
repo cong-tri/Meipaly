@@ -247,6 +247,9 @@ header {
   position: relative;
   overflow: hidden;
 }
+.item-container {
+  margin-left: 20px;
+}
 .overlay-search {
   background-color: rgba(230, 43, 74, 0.6);
   position: absolute;
