@@ -150,7 +150,7 @@ header {
   margin-top: 20px;
 }
 .service-slider .item {
-  width: 214px;
+  /* width: 214px; */
   height: 230px;
   background-color: white;
   color: #848482;
@@ -247,9 +247,9 @@ header {
   position: relative;
   overflow: hidden;
 }
-.item-container {
+/* .item-container {
   margin-left: 20px;
-}
+} */
 .overlay-search {
   background-color: rgba(230, 43, 74, 0.6);
   position: absolute;
