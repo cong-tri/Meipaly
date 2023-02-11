@@ -209,9 +209,12 @@ header {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.slick .slick-dots li button:before {
-  color: #ffffff;
+.slick .slick-dots li button::before {
+  color: #888888;
   font-size: 14px;
+}
+.slick .slick-dots li button:hover::before {
+  color: white;
 }
 .slick .slick-dots li.slick-active button:before {
   color: #e62b4a;
